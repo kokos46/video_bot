@@ -22,7 +22,7 @@ def send_id(message):
     # Получаем file_id из полученного видео
     id_video = message.video.file_id
     links[f'{id_video[:31:]}'] = id_video
-    bot.send_message(message.chat.id, text=f'Ваш file_id: {id_video[:31:]}')
+    bot.send_message(message.chat.id, text=f'Ваша ссылка на видео: https://t.me/{config.username}?start={id_video[:31:]}')
 
 if __name__ == '__main__':
     bot.polling(none_stop=True)
