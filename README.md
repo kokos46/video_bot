@@ -1,7 +1,10 @@
 # Бот для отправки видео
 
 # 1. Клонирование репозитория
-Прописываешь команду git clone https://github.com/kokos46/video_bot.git
+Прописываешь команду 
+```
+git clone https://github.com/kokos46/video_bot.git
+```
 
 # 2. Настройка бота
 1. Для начала пишешь боту @BotFather и через него создаёшь нового бота
